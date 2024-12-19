@@ -1,0 +1,310 @@
+@media(max-width:1280px) {}
+
+@media(max-width:1050px) {
+    .header-wrapper {
+        & .navbar {
+            & .nav-item {
+                padding: 0px 0.2rem;
+
+                & .nav-link {
+                    font-size: 18px;
+                }
+            }
+        }
+        &.fixed-header {
+            padding: 1.5rem .75rem;
+          }
+    }
+
+    .banner-section {
+        margin-bottom: 8rem;
+
+        & .banner-Heading-wrapper {
+            & h2 {
+                font-size: 42px;
+                line-height: 56px;
+                width: 100%;
+            }
+
+            & .heading-2 {
+                font-size: 44px;
+                line-height: 56px;
+            }
+
+            & .download-btn-wrapper {
+                & .download-btn {
+                    width: 159px;
+                    height: 73px;
+
+                    & img {
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+
+        & .banner-img-wrapper {
+            width: 100%;
+            /* height: calc(100vh - 250px); */
+            height: 100%;
+        }
+    }
+
+    .testimonial-wrapper {
+        & .testimonial-slider-wrapper {
+            & .slider-items {
+                width: 88%;
+            }
+        }
+    }
+
+    .footer-wrapper {
+        & .footer-text {
+            width: 90%;
+        }
+
+        & .footer-social-link {
+            & .list-unstyled {
+                gap: 2rem;
+            }
+
+            & .social-link {
+                font-size: 22.48px;
+            }
+        }
+    }
+
+    .our-story {
+        & h2 {
+            font-size: 48px;
+            line-height: 92px;
+        }
+
+        & .our-story-text-wrapper {
+            height: 37vh;
+            overflow-y: auto;
+        }
+    }
+
+    .about-us-wrapper {
+        & .q_and_a-heading {
+            font-size: 42px;
+        }
+
+        & .q_and_a-wrapper {
+            & .accordion-item {
+                width: 80%;
+            }
+        }
+
+        & .about-us-banner {
+            padding-right: 0rem;
+        }
+
+        & .about-us-text-wrapper {
+            height: 36vh;
+            overflow-y: auto;
+        }
+    }
+
+    .help-and-support-wrapper {
+        & .heading {
+            font-size: 54px;
+            line-height: 70px;
+            width: 100%;
+        }
+    }
+}
+
+
+@media(max-width:767px) {
+    .header-wrapper {
+        & .navbar {
+            & .nav-item {
+                padding: 0px 0.2rem;
+
+                & .nav-link {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        & .toogle-btn {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 22px;
+            background-color: transparent;
+            position: relative;
+            z-index: 2;
+        }
+        &.fixed-header {
+            padding: 1.5rem .75rem;
+          }
+    }
+
+    .banner-section {
+        margin-bottom: 4rem;
+
+        & .banner-Heading-wrapper {
+            & h2 {
+                font-size: 36px;
+                line-height: 44px;
+                width: 100%;
+            }
+
+            & .heading-2 {
+                font-size: 35px;
+                line-height: 46px;
+                text-align: left !important;
+            }
+
+            & .download-btn-wrapper {
+                & .download-btn {
+                    width: 159px;
+                    height: 73px;
+
+                    & img {
+                        object-fit: contain;
+                    }
+                }
+            }
+
+            & .para-2 {
+                font-size: 16px;
+                line-height: 22px;
+                text-align: left !important;
+            }
+        }
+
+        & .banner-img-wrapper {
+            width: 70%;
+            height: 70%;
+            margin: 0 auto;
+            margin-bottom: 5rem;
+        }
+    }
+
+    .testimonial-wrapper {
+        & .testimonial-slider-wrapper {
+            & .slider-items {
+                width: 79%;
+            }
+
+            & .testimonial-card-text {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+
+    .footer-wrapper {
+        margin-top: 0rem;
+        padding-top: 2rem;
+        & .footer-text {
+            width: 90%;
+        }
+
+        & .footer-social-link {
+            & .list-unstyled {
+                gap: .75rem;
+            }
+
+            & .social-link {
+                font-size: 14px;
+            }
+        }
+        & .footer-bottom {
+            padding: 1.5rem 0;
+        }
+    }
+    .meet-wrapper {
+        & .meet-img {
+           width: 90%;
+           margin: auto;
+        }
+    }
+    .comman-heading {
+        font-size: 42px;
+    }
+    .our-story {
+        & h2 {
+            font-size: 48px;
+            line-height: 92px;
+        }
+
+        & .our-story-text-wrapper {
+            height: 100%;
+            overflow-y: auto;
+        }
+    }
+
+    .about-us-wrapper {
+        & .q_and_a-heading {
+            font-size: 24px;
+        }
+
+        & .q_and_a-wrapper {
+            & .accordion-item {
+                width: 100%;
+            }
+        }
+
+        & .about-us-banner {
+            padding-right: 0rem;
+        }
+
+        & .about-us-text-wrapper {
+            height: 100%;
+            overflow-y: auto;
+        }
+        & .banner-height {
+            height: 348px;
+        }
+        & .text {
+            font-size: 18px;
+            line-height: 26px;
+        }    
+        & .banner-img-wrapper {
+            height: 329px;
+        }
+    }
+
+    .help-and-support-wrapper {
+        & .heading {
+            font-size: 30px;
+            line-height: 42px;
+            width: 100%;
+        }
+    }
+    .download-wrapper {
+        height: calc(100vh - 97px);
+        & .download-btn-full {
+            width: 100%;
+            gap:.5rem;
+            font-size: 1rem;
+            padding: 0 1.75rem;
+            & img {
+                width: 30px;
+                height: 25.48px;
+            }
+        }
+    }
+
+    .slick-prev {
+        left: 0px !important;
+    }
+
+    .slick-next {
+        right: 0px !important;
+    }
+    body[dir="rtl"] {
+        & .slick-next {
+            left: 88% !important;
+        }
+    }
+}
+
+@media(max-width:450px) {}
+
+@media(max-width:350px) {}
